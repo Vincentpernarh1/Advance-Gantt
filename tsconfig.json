@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "declaration": true,
+    "outDir": "./.tmp/build/",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [
+    "src/visual.ts",
+    ".tmp/precompile/visualPlugin.ts"
+  ]
+}

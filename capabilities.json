@@ -1,0 +1,87 @@
+{
+  "dataRoles": [
+    {
+      "name": "Category",
+      "kind": "Grouping",
+      "displayName": "Category"
+    },
+    {
+      "name": "Task",
+      "kind": "Grouping",
+      "displayName": "Task"
+    },
+    {
+      "name": "StartDate",
+      "kind": "Grouping",
+      "displayName": "Start Date"
+    },
+    {
+      "name": "EndDate",
+      "kind": "Grouping",
+      "displayName": "End Date"
+    },
+    {
+      "name": "PlannedStart",
+      "kind": "Grouping",
+      "displayName": "Planned Start Date"
+    },
+    {
+      "name": "PlannedEnd",
+      "kind": "Grouping",
+      "displayName": "Planned End Date"
+    },
+    {
+      "name": "Progress",
+      "kind": "Measure",
+      "displayName": "Progress"
+    },
+    {
+      "name": "Milestones",
+      "kind": "Grouping",
+      "displayName": "Milestone Dates"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "select": [
+            { "bind": { "to": "Category" } },
+            { "bind": { "to": "Task" } },
+            { "bind": { "to": "StartDate" } },
+            { "bind": { "to": "EndDate" } },
+            { "bind": { "to": "PlannedStart" } },
+            { "bind": { "to": "PlannedEnd" } },
+            { "bind": { "to": "Milestones" } }
+          ],
+          "dataReductionAlgorithm": {
+            "top": {}
+          }
+        },
+        "values": {
+          "select": [
+            { "bind": { "to": "Progress" } }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+  "headerFormatting": {
+    "displayName": "Header Formatting",
+    "properties": {
+      "headerColor": {
+        "displayName": "Header Text Color",
+        "type": { "fill": { "solid": { "color": true } } }
+      },
+      "headerBgColor": {
+        "displayName": "Header Background",
+        "type": { "fill": { "solid": { "color": true } } }
+      }
+    }
+  }
+}
+  ,
+  
+  "privileges": []
+}

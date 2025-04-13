@@ -1,0 +1,17 @@
+{
+		"version": "1.1.0.0",
+		"author": {"name":"Vincent Pernarh","email":"pernarhvincent@example.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/Vpena_Gantv2.pbiviz.json"
+			}
+		],
+		"visual": {"name":"ganttCustom","displayName":"Custom Gantt Chart","guid":"Vpena_Gantv2","visualClassName":"Visual","version":"1.1.0.0","description":"An advanced custom Gantt chart visual for Power BI with category grouping, planned vs. actual timelines, progress tracking, and milestone indicators.","supportUrl":"https://your-site.com","gitHubUrl":"https://github.com/your-repo"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}
